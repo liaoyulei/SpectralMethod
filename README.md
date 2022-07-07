@@ -78,7 +78,7 @@ u(x,0)=-\sin(\pi x), &x\in(-1,1).
 In each time step, the PDE can be transformed into an ODE with variable $x$
 
 $$
-u^{n+1}(x)-\epsilon t\partial_x^2u(x)=u^n(x)-tu^n(x)\partial_xu^n(x).
+u^{n+1}(x)-\epsilon t\partial_x^2u^{n+1}(x)=u^n(x)-tu^n(x)\partial_xu^n(x).
 $$
 
 Hence the algebra system is  $(\epsilon tI+M)c=(u^n-tu^n\partial_xu^n,\phi) $. The term  $-(u^n\partial_xu^n,\phi) $ is calculated by
